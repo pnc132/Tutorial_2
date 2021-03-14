@@ -95,10 +95,7 @@ public class PlayerScript : MonoBehaviour
             
         }
 
-        if (Input.GetKey("escape"))
-        {
-            Application.Quit();
-        }
+       
     }
     void Update()
     {
@@ -130,6 +127,10 @@ public class PlayerScript : MonoBehaviour
         {
             anim.SetInteger("State", 2);
 
+        }
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
