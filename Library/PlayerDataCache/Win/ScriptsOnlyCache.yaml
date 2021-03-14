@@ -628,4 +628,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/music/Tutorial 2/Build/Tutorial 2.exe
+  playerPath: C:/Users/music/Tutorial 2/Build/Tutorial 2_Data/Tutorial 2.exe
